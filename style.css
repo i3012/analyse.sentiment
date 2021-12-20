@@ -1,0 +1,57 @@
+.intro{
+    font-family: Montserrat;
+}
+
+h3{
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 44px;
+}
+
+.hwork{
+    font-family: Montserrat;
+}
+
+h4{
+    letter-spacing: 1.5px;
+    font-size: 33px;
+    border: 1px solid rgb(255, 255, 255); 
+    padding-left: 62px;"
+}
+
+.content{
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    position: relative;
+    display:inline-block;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+input[type="text"]{
+    height: 70px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: #00BFA6;
+    font-family: Montserrat;
+}
+
+input[type="submit"]{
+    height: 55px;
+    width: 220x;
+    border-radius: 10px;
+    border-color: #112523;
+    font-family: Montserrat;
+    color: #00BFA6;
+    background-color: rgb(255, 255, 255);
+}
+
+input[type="submit"]: hover
+{
+    background-color: #00BFA6;
+}
